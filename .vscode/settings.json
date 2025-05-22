@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unitek_temp.h": "c",
+        "stm32_can_driver.h": "c",
+        "unitek_drive.h": "c",
+        "can_interface.h": "c"
+    }
+}
