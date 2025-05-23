@@ -4,7 +4,7 @@
 int main(void)
 {
     UnitekDrive motor;
-    unitek_drive_init(&motor, &stm32_can_driver, 0x181, 0x201);
+    unitek_drive_init(&motor, &stm32_can_driver, 0x181, 0x201, NULL);
 
     // send request
     unitek_request_param_async(&motor, UNITEK_PARAM_SPEED, 100);      // every 100ms
